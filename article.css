@@ -1,0 +1,56 @@
+body {
+background-color: #0A003C;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+margin: 0; /* add margin reset for consistency */
+padding-top: 35px;
+}
+.botton-span:hover {
+color: white;
+}
+.Article-Title {
+font-weight: 800;
+}
+.By {
+color: #9CA3AF;
+}
+.Aung {
+font-weight: 600;
+}
+.Text-Dis{
+padding-bottom: 70px;
+}
+.Discription,
+.Text-Dis,
+.subtitle {
+color: #9CA3AF;
+}
+.blog-header {
+padding-top: 75px;
+}
+.lead {
+font-size: 16px;
+color: rgb(226, 226, 226);
+}
+.subtitle {
+margin-bottom: 5px;
+}
+.author {
+border-top: 2px solid #9CA3AF;
+font-weight: 300;
+}
+.blog-image {
+width: 100%;
+height: auto;
+max-height: 500px;
+border-radius: 10px;
+margin: 0 0 16px 0;
+object-fit: cover;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+/* Move transition here so it applies both on hover in and out */
+transition: transform 0.3s ease;
+cursor: pointer;
+}
+.blog-image:hover {
+transform: scale(1.01);
+}

@@ -1,0 +1,241 @@
+* {
+box-sizing: border-box;
+}
+.Blog-Body{
+font-family: 'Montserrat', sans-serif;
+background-color: rgb(10, 0, 60);
+padding-top: 100px;
+}
+/* Blog Card */
+.blog-main-card,
+.blog-news-card-1,
+.blog-article-card-1 {
+background-color: #240E64;
+border: none;
+border-radius: 10px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+padding: 1.5rem;
+position: relative;
+margin: 15px 15px 0px 15pxauto;
+}
+.blog-main-card{
+padding-top: 100px;
+}
+.blog-news-card-1,
+.blog-article-card-1 {
+border-radius: 6px;
+padding: 1rem;
+}
+.blog-article-card-1 {
+height: 100%;
+}
+/* Blog Tag Styles */
+.blog-tag,
+.blog-tag-card,
+.blog-tag-card-new {
+background-color: #E9D5FF;
+color: #581C96;
+font-weight: 600;
+font-size: 12px;
+padding: 1px 8px;
+border-radius: 3px;
+display: flex;
+width: fit-content;
+}
+.blog-tag {
+position: relative;
+top: 2.5px;
+border-radius: 4px;
+}
+.blog-tag-card {
+position: relative;
+top: 4px;
+left: 4px;
+margin-bottom: 6px;
+z-index: 2;
+}
+.blog-tag-card-new {
+position: absolute;
+top: 24px;
+left: 24px;
+margin: 0;
+z-index: 1;
+}
+/* Titles */
+.blog-topic,
+.blog-article-topic {
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: white;
+}
+.blog-topic {
+margin: 20px 0 12px;
+}
+.blog-article-topic {
+margin-bottom: 5px;
+z-index: 4;
+}
+/* Images */
+.blog-news-photo-1,
+.blog-photo {
+object-fit: cover;
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+.blog-news-photo-1 {
+width: 200px;
+}
+.blog-photo {
+height: 450px;
+}
+.blog-article-photo-1,
+.blog-article-photo-2 {
+object-fit: cover;
+position: relative;
+top: -25px;
+height: auto;
+border-radius: 0;
+}
+.blog-article-photo-2 {
+width: 95%;
+}
+.blog-article-photo-1 {
+width: 100%;
+}
+/* Image Boxes */
+.blog-box,
+.blog-box-article {
+width: 100%;
+border-radius: 4px;
+position: relative;
+overflow: hidden;
+}
+.blog-box {
+aspect-ratio: 16 / 9;
+}
+.blog-box-article {
+aspect-ratio: 4 / 3;
+}
+/* Overlay Effects */
+.blog-overlay,
+.blog-overlay-article {
+position: absolute;
+left: 0;
+bottom: 35px;
+width: 100%;
+height: 100%;
+background: linear-gradient(to top, rgba(238, 238, 238, 0.6), transparent 80%);
+border-radius: 10px;
+transform: translateY(100%);
+transition: transform 0.5s ease;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+}
+.blog-box:hover .blog-overlay,
+.blog-box-article:hover .blog-overlay-article {
+transform: translateY(0%);
+}
+/* Buttons */
+.blog-btn {
+margin-top: 10px;
+color: #262626;
+text-decoration: none;
+font-size: 14px;
+background: #fff;
+border-radius: 50px;
+padding: 5px 15px;
+font-weight: 600;
+}
+.blog-btn:hover {
+background-color: white;
+}
+/* Blog Description */
+.blog-dis {
+color: #9C9C9E;
+margin: 0;
+font-size: 16px;
+}
+/* Divider */
+.border-light {
+margin: 9px 0 15px;
+}
+/* Section Titles */
+.blog-section-title,
+.blog-section-title-second {
+background-color: #E9D5FF;
+color: #581C87;
+font-size: 20px;
+padding: 10px 30px; /* Increased horizontal padding */
+border-radius:  6px;
+text-align: center;
+font-weight: 600;
+letter-spacing: 1px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+display: inline-block; /* Better than fit-content for responsiveness */
+margin: 0 auto; /* Center the element */
+max-width: 100%; /* Prevent overflow */
+}
+.blog-section-title {
+margin-top: 2px;
+}
+.blog-section-title-second {
+margin-top: 16px;
+}
+@media (max-width: 768px) {
+.blog-section-title,
+.blog-section-title-second {
+padding: 10px 20px; /* Slightly reduced padding on mobile */
+font-size: 18px;
+width: auto; /* Allow natural width */
+display: block; /* Take full width on mobile */
+margin-left: 15px; /* Add some margin */
+margin-right: 15px; /* Add some margin */
+}
+}
+/* Text Elements */
+.blog-text,
+.blog-text-a,
+.blog-text-hover,
+.blog-text-d {
+color: white;
+margin: 0;
+}
+.blog-text-a {
+font-size: 15px;
+}
+.blog-text-d,
+.blog-text-hover {
+padding: 2px;
+font-size: 16px;
+line-height: 1.6;
+}
+/* Column Fix */
+.col-md-3 {
+width: 35.1667%;
+}
+/* Responsive */
+@media (max-width: 768px) {
+.blog-overlay h3,
+.blog-overlay-article h3 {
+font-size: 22px;
+margin-top: 60%;
+}
+.blog-text-d {
+font-size: 15px;
+}
+.blog-box,
+.blog-box-article {
+border-radius: 8px;
+}
+.blog-section-title {
+padding: 10px 20px;
+font-size: 18px;
+}
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #0A003C !important;
+}
+.secsource h2 {
+    color: white;
+}
+.sourceb {
+    border: none;
+    background-color: rgb(42, 7, 82);
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    transition: all 0.2s ease;
+}
+.sourceb:hover {
+    background-color: white;
+    color: rgb(42, 7, 82);
+    border: 1px solid rgb(42, 7, 82);
+    cursor: pointer;
+}
+.sourceb a {
+    text-decoration: none;
+    color: inherit; /* inherit color from parent (white or purple) */
+}
+.seccard {
+    margin-top: 6.7rem;
+}
+.card-body {
+    text-align: center;
+}

@@ -1,0 +1,147 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: "Montserrat";
+}
+.abt1sec {
+background-color: #240e64;
+color: white;
+padding-top: 20px;
+}
+.image-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding-top: 40px;
+}
+.sleep-image {
+border-radius: 20px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+.abt2sec {
+background-color: #0a003c;
+color: white;
+}
+.Future-Logo {
+font-size: 36px;
+font-weight: 700;
+display: inline-block;
+font-family: "Montserrat";
+}
+.Future-A {
+display: inline-block;
+padding-top: 8px;
+font-size: 14px;
+font-family: "Montserrat";
+color: #a3b8c4;
+}
+.Future-Logo-B {
+font-size: 30px;
+font-weight: 700;
+display: inline-block;
+font-family: "Montserrat";
+text-align: left;
+}
+.Future-B {
+display: inline-block;
+padding-top: 8px;
+font-size: 14px;
+font-family: "Montserrat";
+color: #a3b8c4;
+text-align: left;
+}
+.left-img {
+transform: translateY(-20px);
+}
+.right-img {
+transform: translateY(20px);
+}
+.box {
+width: 100%;
+max-width: 600px;
+height: 425px;
+overflow-y: scroll;
+background: #36285c77;
+margin: 0 auto;
+padding-left: 12000px; /* bigger left padding inside the box */
+box-sizing: border-box;
+border-radius: 8px;
+margin: 0px 20px;
+margin-bottom: 30px;
+}
+.text-1{
+margin: 0px 20px;
+}
+.profile-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #ffffff73 ;
+padding: 20px;
+border-radius: 15px;
+gap: 15px;
+}
+.profile-img {
+width: 100%;
+max-width: 150px;
+border-radius: 15px;
+object-fit: cover;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-info {
+color: #0a003c;
+text-align: center;
+}
+.row{
+display: flex;
+justify-content: center;
+}
+.accordion .accordion-item .accordion-button {
+background-color: white;
+border:none;
+color: #0a003c;
+font-family: "Montserrat";
+font-weight: 600;
+}
+.accordion .accordion-item .accordion-button:not(.collapsed) {
+background-color: white;
+border:none;
+color: #0a003c;
+font-family: "Montserrat";
+font-weight: 600;;
+}
+.accordion-button:focus {
+box-shadow: none ;
+border-color: transparent ;
+}
+@media (min-width: 576px) {
+.profile-container {
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+text-align: left;
+}
+.profile-img {
+margin-right: 20px;
+}
+.profile-info {
+flex: 1;
+}
+}
+/* Responsive adjustments for padding */
+@media (max-width: 992px) {
+.Future-Logo-B,
+.Future-B,
+.box {
+padding-left: 40px;
+}
+}
+@media (max-width: 576px) {
+.Future-Logo-B,
+.Future-B,
+.box {
+padding-left: 15px;
+}
+}

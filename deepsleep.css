@@ -1,0 +1,97 @@
+body {
+background-color: rgb(10, 0, 60);
+color: #ffffff;
+font-family: montserrat;
+padding-top: 70px;
+}
+.blog-image {
+width: 100%;
+height: auto;
+max-height: 500px;
+border-radius: 10px;
+margin: 30px 0;
+}
+.border-light{
+margin: 13px 0px;
+}
+.tag {
+width: fit-content;
+background-color: #c8a2ff;
+color: #1e0042;
+font-size: 0.7rem;
+padding: 4px 8px;
+border-radius: 4px;
+display: inline-block;
+font-size: 20px;
+}
+.Hoo{
+color: rgb(177,70,254);
+}
+.ARTICLE{
+font-size: 35px;
+font-weight: 800;
+}
+.hehe{
+margin-bottom: -10px;
+}
+.tag{
+width: fit-content;
+background-color: hsl(265, 100%, 93%);
+color: #0A003C;
+padding: 4px 8px;
+border-radius: 5px;
+display: inline-block;
+font-size: 20px;
+font-weight: 600;
+}
+.tag-2 {
+width: fit-content;
+background-color: hsl(265, 100%, 93%);
+color: #0A003C;
+padding: 4px 8px;
+border-radius: 5px;
+display: inline-block;
+font-size: 20px;
+font-weight: 600;
+margin-left: auto; /* NEW */
+display: block;    /* CHANGE this to block */
+text-align: right; /* optional, in case of multiline text */
+}
+.custom-img {
+border-radius: 1rem;
+width: 100%;
+object-fit: cover;
+}
+.heading{
+font-weight: 700;
+}
+.lead{
+padding-top: 10px;
+}
+.text{
+padding:0px;
+margin:0px;
+}
+.text-s{
+padding-left:16px;
+}
+.text-c{
+font-size: 25px;  
+font-weight: 700;
+}
+.ARTICLE, .text-c, .hehe {
+padding-left: 0;
+margin-left: 0;
+}
+.bi{
+color: red;
+}
+.bi-2{
+color: black;
+}
+.custom-img{
+max-width: 100%;
+display: inline-block;
+margin: 0 auto;
+padding-right: 0px;
+}

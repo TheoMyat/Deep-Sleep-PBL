@@ -1,0 +1,34 @@
+body {
+background-color: #0b0041;
+color: #E0E0FF;
+font-family: 'Montserrat', sans-serif;
+padding-top: 60px;
+}
+.container-brown{
+padding-right: 0px;
+}
+.text-white{
+font-weight: 600;
+}
+.carousel-control-prev-icon{
+color: red;
+}
+.position-relative:hover .play-button {
+opacity: 1;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+.carousel-container {
+scrollbar-width: none;
+}
+.carousel-container::-webkit-scrollbar {
+display: none;
+}
+.sound-card {
+border-radius: 15px;       
+transition: all 0.3s ease;
+background-color: #4b4083 !important;
+}
+.sound-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
